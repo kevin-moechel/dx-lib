@@ -49,7 +49,7 @@ describe("safeStringLiteral", () => {
 
         it("should throw an error for invalid literals", () => {
             expect(() => Colors.toLiteral("yellow")).toThrow(
-                "Invalid value: yellow"
+                "Invalid value: yellow",
             );
             expect(() => Colors.toLiteral("")).toThrow("Invalid value: ");
         });
@@ -62,7 +62,7 @@ describe("safeStringLiteral", () => {
 
         it("should throw an error if any value is invalid", () => {
             expect(() => Colors.toLiterals(["red", "yellow"])).toThrow(
-                "Invalid value: yellow"
+                "Invalid value: yellow",
             );
         });
 

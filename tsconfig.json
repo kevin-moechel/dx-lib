@@ -9,5 +9,9 @@
         "outDir": "dist",
         "rootDir": "."
     },
-    "include": ["cli", "src"]
+    "include": ["cli", "src"],
+
+  "exclude": [
+    "node_modules"
+  ]
 }
