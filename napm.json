@@ -1,0 +1,7 @@
+{
+    "packages": {
+        "safe-string-literal": {
+            "dir": "src/dx"
+        }
+    }
+}
