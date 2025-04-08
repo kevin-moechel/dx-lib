@@ -54,6 +54,7 @@ type safeStringLiteral<T extends readonly string[]> = {
  * @example
  * const Colors = safeStringLiteral("red", "green", "blue");
  * const colorValues = Colors.values; // ["red", "green", "blue"]
+ * type Color = typeof Colors.type; // "red" | "green" | "blue"
  * const color: Colors.type = "red";
  * const invalidColor: Colors.type = "yellow"; // Error: Type '"yellow"' is not assignable to type '"red" | "green" | "blue"'.
  *
