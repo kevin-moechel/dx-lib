@@ -2,6 +2,9 @@
     "packages": {
         "safe-string-literal": {
             "dir": "src/dx/safe-string-literal"
+        },
+        "try-catch": {
+            "dir": "src/dx/try-catch"
         }
     }
 }
