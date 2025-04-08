@@ -1,5 +1,4 @@
 import { describe, expect, it } from "vitest";
-
 import { safeStringLiteral } from "./safe-string-literal";
 
 describe("safeStringLiteral", () => {
@@ -7,6 +6,7 @@ describe("safeStringLiteral", () => {
     const Colors = safeStringLiteral("red", "green", "blue");
     type Color = typeof Colors.type;
 
+    safeStringLiteral();
     describe("values", () => {
         it("should contain all the provided literal values", () => {
             expect(Colors.values).toEqual(["red", "green", "blue"]);
