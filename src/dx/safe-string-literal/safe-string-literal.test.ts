@@ -1,4 +1,5 @@
 import { describe, expect, it } from "vitest";
+
 import { safeStringLiteral } from "./safe-string-literal";
 
 describe("safeStringLiteral", () => {
